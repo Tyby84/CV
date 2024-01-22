@@ -32,14 +32,15 @@ p {
   width: 60%;
   color: #eee;
   line-height: 1.5;
+  text-align: justify;
 }
 @media screen and (max-width: 760px) {
   .intro {
-    width: 100%;
+    width: auto;
     flex-direction: column;
   }
   .intro p {
-    width: auto;
+    width: 100%;
   }
   .intro img {
     width: 40%;
@@ -73,6 +74,11 @@ p {
   text-align: center;
   width: 50%;
   margin: 5px auto;
+}
+@media screen and (max-width: 960px) {
+  .history {
+    width: auto;
+  }
 }
 
 .hide {
