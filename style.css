@@ -4,7 +4,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #b3b3b3;
+  color: #e3e3e3;
 }
 
 h2, h3 {
@@ -17,10 +17,10 @@ p {
 
 .intro {
   width: 60%;
-  margin: 20px auto;
-  padding: 50px;
+  margin: 12px auto;
+  padding: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .intro img {
@@ -29,13 +29,27 @@ p {
   border-radius: 47%;
 }
 .intro p {
-  width: 50%;
+  width: 60%;
   color: #eee;
   line-height: 1.5;
 }
+@media screen and (max-width: 760px) {
+  .intro {
+    width: 100%;
+    flex-direction: column;
+  }
+  .intro p {
+    width: auto;
+  }
+  .intro img {
+    width: 40%;
+  }
+}
 
 .container {
-  background-color: #808080;
+  background-color: rgba(226, 221, 221, 0.768627451);
+  background-image: url("img/network-7862055_1920.jpg");
+  background-blend-mode: overlay;
   padding: 20px;
 }
 .container h1 {
@@ -45,8 +59,13 @@ p {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 960px) {
+  .container .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .container .skills div {
-  width: 30%;
   text-align: center;
 }
 

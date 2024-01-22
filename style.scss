@@ -1,9 +1,10 @@
 ﻿body {
-    background-color: #222; 
+    background-color: #222;
+    //max-width: 100%; 
 }
 h1 {
     text-align: center;
-    color: #b3b3b3;
+    color: #e3e3e3;
 }
 h2,h3 {
     margin: 5px 0px;
@@ -14,29 +15,42 @@ p {
 
 .intro {
     width:60%;
-    margin: 20px auto;
-    padding: 50px;
+    margin: 12px auto;
+    padding: 30px;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
-    
+   
     img {
         width: 20%;
         border: 2px;
         border-radius: 47%;
     }
     p {
-        width: 50%;
+        width: 60%;
         color: #eee;
         line-height: 1.5;
     }
+    @media screen and (max-width:760px) {
+        width: 100%;
+        flex-direction: column;
+        p {
+          width: auto;  
+        }
+        img {
+            width: 40%;
+        }
+       } 
 }
 
 .intro p {
    
 }
 .container {
-    background-color: #808080;
+    background-color: #e2ddddc4;
+    background-image: url("img/network-7862055_1920.jpg");
+    background-blend-mode: overlay;
+    //max-width: 100%;
     padding: 20px;
     h1 {
         text-align: center;
@@ -44,10 +58,14 @@ p {
     .skills {
         display: flex;
         justify-content: space-around;
-        
+        @media screen and (max-width:960px) {
+            flex-direction: column;
+            align-items: center;
+           } 
         div {
-            width: 30%;
+            //width: 30%;
             text-align: center;
+           
         }
     }
 }
