@@ -1,0 +1,80 @@
+body {
+  background-color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #b3b3b3;
+}
+
+h2, h3 {
+  margin: 5px 0px;
+}
+
+p {
+  font-size: 19px;
+}
+
+.intro {
+  width: 60%;
+  margin: 20px auto;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.intro img {
+  width: 20%;
+  border: 2px;
+  border-radius: 47%;
+}
+.intro p {
+  width: 50%;
+  color: #eee;
+  line-height: 1.5;
+}
+
+.container {
+  background-color: #808080;
+  padding: 20px;
+}
+.container h1 {
+  text-align: center;
+}
+.container .skills {
+  display: flex;
+  justify-content: space-around;
+}
+.container .skills div {
+  width: 30%;
+  text-align: center;
+}
+
+.history {
+  text-align: center;
+  width: 50%;
+  margin: 5px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: cadetblue;
+  color: #eee;
+}
+
+.contact {
+  text-align: center;
+  width: 70%;
+  margin: 15px auto;
+}
+.contact img {
+  width: 80px;
+}/*# sourceMappingURL=style.css.map */
