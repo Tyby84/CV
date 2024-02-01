@@ -7,6 +7,17 @@ html {
 
 body {
   background-color: #373737;
+  margin: 0;
+}
+
+header {
+  background-image: url("img/black-1072366_1920.jpg");
+  background-color: #5e5e5e;
+  background-blend-mode: hard-light;
+}
+header h1 {
+  margin: 0 !important;
+  padding-top: 10px;
 }
 
 h1 {
@@ -24,7 +35,7 @@ p {
 
 .intro {
   width: 60%;
-  margin: 12px auto;
+  margin: 0px auto;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -134,4 +145,31 @@ p {
   font-size: 19px;
   margin: 10px;
   color: #eee;
+}
+
+footer {
+  background-color: #373737;
+  display: flex;
+  width: 65%;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: 5px auto;
+  /* a {
+      display: block;
+  } */
+}
+footer img {
+  width: 10%;
+}
+footer p {
+  color: #eee;
+}
+@media screen and (max-width: 960px) {
+  footer {
+    flex-direction: column;
+  }
+  footer img {
+    width: 20%;
+  }
 }/*# sourceMappingURL=style.css.map */

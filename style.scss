@@ -5,10 +5,17 @@
 font-family: 'PT Sans', sans-serif;
 }
 body {
-    background-color: #373737;    
+    background-color: #373737;
+    margin: 0;    
 }
 header {
-    
+    background-image: url("img/black-1072366_1920.jpg");
+    background-color: #5e5e5e;
+    background-blend-mode: hard-light;
+    h1 {
+        margin: 0!important;
+        padding-top: 10px;
+    }
 }
 h1 {
     text-align: center;
@@ -23,12 +30,12 @@ p {
 
 .intro {
     width:60%;
-    margin: 12px auto;
+    margin: 0px auto;
     padding: 15px;
     display:flex;
     justify-content:space-between;
     align-items: center;
-   
+    
     img {
         width: 20%;
         border: 2px;
@@ -127,4 +134,28 @@ p {
         color: #eee;
     }
   }
-  
+
+ footer {
+    background-color: #373737;
+    display: flex;
+    width: 65%;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 5px auto;
+    /* a {
+        display: block;
+    } */
+    img {
+        width: 10%;
+    }
+    p {
+        color: #eee;
+    }
+    @media screen and (max-width:960px) {
+        flex-direction: column;
+        img {
+            width: 20%;
+        }
+        }
+ } 
