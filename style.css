@@ -20,6 +20,12 @@ header h1 {
   padding-top: 10px;
 }
 
+hr {
+  width: 80%;
+  margin: 15px auto;
+  border-top: 1px solid #eee;
+}
+
 h1 {
   text-align: center;
   color: #e3e3e3;
